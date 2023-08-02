@@ -13,7 +13,7 @@ class Loggy {
         $curl = curl_init();
 
         $uri  = env('LOGGY_API_URL');
-        $url  = self::$uri . '/site/' . env('LOGGY_SITE_ID') . '/log?token=' . env('LOGGY_SITE_TOKEN');
+        $url  = $uri . '/site/' . env('LOGGY_SITE_ID') . '/log?token=' . env('LOGGY_SITE_TOKEN');
 
         $method = 'POST';
         $fields = array(
