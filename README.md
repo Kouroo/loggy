@@ -50,7 +50,43 @@ Then, add two lines your app\Exceptions\Handler.php file :
 	}
 
 ### Symfony Configuration
-Coming soon 🕓
+Add the following variables in your .env file :
+
+    # Loggy configuration
+    LOGGY_API_URL=https://logmanager.kouroo.fr/api
+    LOGGY_SITE_ID=<your-site-uuid>
+    LOGGY_SITE_TOKEN=<your-site-token>
+
+Then, create an ExceptionListener.php file in src/ :
+
+    <?php
+        namespace App\EventListener;
+
+        use Kouroo\Loggy\Helper\Loggy;
+        use Symfony\Component\HttpFoundation\Response;
+        use Symfony\Component\HttpKernel\Event\GetResponseForExceptionEvent;
+        use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
+
+        class ExceptionListener
+        {
+            /**
+            * @param GetResponseForExceptionEvent $event
+            */
+            public function onKernelException($event)
+            {
+                $e = $event->getThrowable();
+
+                Loggy::sendException($e);
+            }
+        }
+
+Finally, declare your listener in the config/services.yml file : 
+
+    # add more service definitions when explicit configuration is needed
+    # please note that last definitions always *replace* previous ones
+    App\EventListener\ExceptionListener:
+        tags:
+            - { name: kernel.event_listener, event: kernel.exception }
 
 ### WordPress Configuration
 Coming soon 🕓
