@@ -70,7 +70,7 @@ Then, create an ExceptionListener.php file in src/ :
         class ExceptionListener
         {
             /**
-            * @param GetResponseForExceptionEvent $event
+            * @param $event
             */
             public function onKernelException($event)
             {
