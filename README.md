@@ -8,7 +8,7 @@ Loggy is a web platform to centralize and track every logs of your website in or
 - Usable with backend and/or frontend stack
 - Quick installation for Laravel and Symfony (much more very soon)
 - Also usable for frontend project only
-- Secure with static token or Oauth
+- Secure with static token or dynamic bearer token
 - IP restriction to allow only your domains
 - Real-time alert
 
@@ -100,11 +100,33 @@ Coming soon 🕓
 ### Adobe Commerce (Magento) Configuration
 Coming soon 🕓
 
-### Rest API : Backend usability
-Coming soon 🕓
+## Rest API 💻
 
-### Rest API : Frontend usability
-Coming soon 🕓
+Documentation : [https://documenter.getpostman.com/view/6787367/2s946o2oNF](https://documenter.getpostman.com/view/6787367/2s946o2oNF)
+
+### Authentication
+    POST /api/login
+    {
+        email: <your-email>
+        password: <your-password>
+    }
+
+### Log
+
+Add log with authorization bearer token
+
+    POST /api/site/<uuid>/log
+    Authorization : Bearer <authorization-token>
+    {
+        ...
+    }
+
+Add log with a static token (less secure)
+
+    POST /api/site/<your-site-uuid>/log?token=<your-site-token>
+    {
+        ...
+    }
 
 ## Security Vulnerabilities 🚨
 
