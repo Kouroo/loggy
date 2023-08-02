@@ -1,0 +1,16 @@
+{
+    "name": "kouroo/loggy",
+    "description": "Send your php log to loggy",
+    "autoload": {
+        "psr-4": {
+            "Kouroo\\Loggy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kevin Rignault",
+            "email": "kevin@kouroo.fr"
+        }
+    ],
+    "require": {}
+}
