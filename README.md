@@ -1,6 +1,6 @@
 -- 
 
-## About Loggy
+## About Loggy ✌️
 
 Loggy is a web platform to centralize and track every logs of your website in order to monitor and alert much better !
 
@@ -14,7 +14,7 @@ Loggy is a web platform to centralize and track every logs of your website in or
 
 Loggy is simple, fast and smart because it can alert you in real time and help you to resolve your bug. Don't let your logs faar away on your server !
 
-## How it works
+## How it works 🤓
 
 **Step 1 :**
 - Create an account on [logmanager.kouroo.fr](https://logmanager.kouroo.fr)
@@ -71,10 +71,10 @@ Coming soon 🕓
 ### Frontend usability
 Coming soon 🕓
 
-## Security Vulnerabilities
+## Security Vulnerabilities 🚨
 
 If you discover a security vulnerability within Loggy, please send an e-mail to Kouroo via [contact@kouroo.fr](mailto:contact@kouroo.fr). All security vulnerabilities will be promptly addressed.
 
-## License
+## License 📑
 
 The Loggy package is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
