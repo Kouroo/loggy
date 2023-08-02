@@ -31,14 +31,14 @@ Add the package in your project :
     composer require kouroo/loggy:dev-master
 
 ### Laravel Configuration
-Add in your .env file the variables :
+Add in your .env file the following variables :
 
     # Loggy configuration
     LOGGY_API_URL=https://logmanager.kouroo.fr/api
     LOGGY_SITE_ID=<your-site-uuid>
     LOGGY_SITE_TOKEN=<your-site-token>
 
-Add in your app\Exceptions\Handler.php file :
+Then add in your app\Exceptions\Handler.php file :
 
     use Kouroo\Loggy\Helper\Loggy; <-- Import the loggy helper
     ...
