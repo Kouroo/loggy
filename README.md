@@ -64,11 +64,10 @@ Coming soon 🕓
 ### Adobe Commerce (Magento) Configuration
 Coming soon 🕓
 
-## Rest API
-### Backend usability
+### Rest API : Backend usability
 Coming soon 🕓
 
-### Frontend usability
+### Rest API : Frontend usability
 Coming soon 🕓
 
 ## Security Vulnerabilities 🚨
