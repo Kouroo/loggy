@@ -12,16 +12,16 @@ Loggy is a web platform to centralize and track every logs of your website in or
 - IP restriction to allow only your domains
 - Real-time alert
 
-Loggy is simple, fast and smart ! Don't let your logs au fond de votre serveur.  
+Loggy is simple, fast and smart because it can alert you in real time and help you to resolve your bug. Don't let your logs faar away on your server !
 
 ## How it works
 
 **Step 1 :**
-Create an account on logmanager.kouroo.fr
-Then, add the first website that you want to monitor and track all the logs.
-Enter the name of the website, the URL and the allowed IPs address and that's it !
+- Create an account on [logmanager.kouroo.fr](https://logmanager.kouroo.fr)
+- Then, add the first website that you want to monitor and track all the logs.
+- Enter the name of the website, the URL and the allowed IPs address and that's it !
 
-It will give you an :
+It will give you 2 things :
 - UUID website
 - Static Token
  
