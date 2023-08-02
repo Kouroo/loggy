@@ -115,7 +115,7 @@ Documentation : [https://documenter.getpostman.com/view/6787367/2s946o2oNF](http
 
 Add log with authorization bearer token
 
-    POST /api/site/<uuid>/log
+    POST /api/site/<your-site-uuid>/log
     Authorization : Bearer <authorization-token>
     {
         ...
