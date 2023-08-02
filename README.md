@@ -31,7 +31,7 @@ Add the package in your project :
     composer require kouroo/loggy:dev-master
 
 ### Laravel Configuration
-Add in your .env file the following variables :
+Add the following variables in your .env file :
 
     # Loggy configuration
     LOGGY_API_URL=https://logmanager.kouroo.fr/api
