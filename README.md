@@ -5,10 +5,10 @@
 Loggy is a web platform to centralize and track every logs of your website in order to monitor and alert much better !
 
 - Simple and fast installation, only 2 minutes
-- Usable in backend and/or frontend stack
+- Usable with backend and/or frontend stack
 - Quick installation for Laravel and Symfony (much more very soon)
 - Also usable for frontend project only
-- Securely with static token or Oauth
+- Secure with static token or Oauth
 - IP restriction to allow only your domains
 - Real-time alert
 
@@ -73,7 +73,7 @@ Coming soon 🕓
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Kouroo via [contact@kouroo.fr](mailto:contact@kouroo.fr). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Loggy, please send an e-mail to Kouroo via [contact@kouroo.fr](mailto:contact@kouroo.fr). All security vulnerabilities will be promptly addressed.
 
 ## License
 
