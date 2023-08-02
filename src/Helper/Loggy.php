@@ -12,8 +12,8 @@ class Loggy {
     {
         $curl = curl_init();
 
-        $uri  = env('LOGGY_API_URL');
-        $url  = $uri . '/site/' . env('LOGGY_SITE_ID') . '/log?token=' . env('LOGGY_SITE_TOKEN');
+        $uri  = $_ENV['LOGGY_API_URL'];
+        $url  = $uri . '/site/' . $_ENV['LOGGY_SITE_ID'] . '/log?token=' . $_ENV['LOGGY_SITE_TOKEN'];
 
         $method = 'POST';
         $fields = array(
