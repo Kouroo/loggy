@@ -17,7 +17,7 @@ Loggy is simple, fast and smart ! Don't let your logs au fond de votre serveur.
 ## How it works
 
 **Step 1 :**
-Create an account on loggy.kouroo.fr
+Create an account on logmanager.kouroo.fr
 Then, add the first website that you want to monitor and track all the logs.
 Enter the name of the website, the URL and the allowed IPs address and that's it !
 
