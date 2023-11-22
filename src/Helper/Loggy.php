@@ -12,7 +12,7 @@ class Loggy {
     {
         $curl = curl_init();
 
-        $uri  = $_ENV['LOGGY_API_URL'];
+        $uri  = 'https://logmanager.kouroo.fr/api';
         $url  = $uri . '/site/' . $_ENV['LOGGY_SITE_ID'] . '/log?token=' . $_ENV['LOGGY_SITE_TOKEN'];
 
         $method = 'POST';

@@ -23,7 +23,7 @@ Loggy is simple, fast and smart because it can alert you in real time and help y
 
 It will give you 2 things :
 - UUID website
-- Static Token
+- Static Site Token
  
 **Step 2 :**
 Add the package in your project :
@@ -34,9 +34,8 @@ Add the package in your project :
 Add the following variables in your .env file :
 
     # Loggy configuration
-    LOGGY_API_URL=https://logmanager.kouroo.fr/api
-    LOGGY_SITE_ID=<your-site-uuid>
-    LOGGY_SITE_TOKEN=<your-site-token>
+    LOGGY_SITE_ID=<your-uuid-website>
+    LOGGY_SITE_TOKEN=<your-static-site-token>
 
 Then, add two lines your app\Exceptions\Handler.php file :
 
@@ -53,9 +52,8 @@ Then, add two lines your app\Exceptions\Handler.php file :
 Add the following variables in your .env file :
 
     # Loggy configuration
-    LOGGY_API_URL=https://logmanager.kouroo.fr/api
-    LOGGY_SITE_ID=<your-site-uuid>
-    LOGGY_SITE_TOKEN=<your-site-token>
+    LOGGY_SITE_ID=<your-uuid-website>
+    LOGGY_SITE_TOKEN=<your-static-site-token>
 
 Then, create an ExceptionListener.php file in src/ :
 
