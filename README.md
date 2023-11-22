@@ -37,7 +37,7 @@ Add the following variables in your .env file :
     LOGGY_SITE_ID=<your-uuid-website>
     LOGGY_SITE_TOKEN=<your-static-site-token>
 
-Then, add two lines your app\Exceptions\Handler.php file :
+Then, add two lines in your app\Exceptions\Handler.php file :
 
     use Kouroo\Loggy\Helper\Loggy; <-- Import the loggy helper
     ...
